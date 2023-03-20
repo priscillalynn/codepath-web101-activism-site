@@ -1,75 +1,64 @@
 html {
     height: 100%;
     width: 100%;
+    background-color: rgb(248, 237, 219);
+    font-family: 'Playfair Display', serif;
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
   }
-  
-  /* NAVBAR */
+
   .logo-link {
     text-decoration: none;
-    color: darkslategray;
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    font-weight: 50;
-    margin-left: 40px;
-    cursor: pointer;
-    font-style: italic;
+    text-align: center;
+    color: #000;
+    padding-left: 30px;
   }
-  
+
   .logo-link:hover {
-    opacity: 0.8;
+    opacity: 60%;
   }
-  
-  .logo-link:active {
-    color: rgb(25, 61, 107);
+
+  /* NAVBAR */
+
+  nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
-  
-  header {
-    background-color: papayawhip;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
+
+  nav li {
+    display: inline-block;
   }
-  
-  header li {
-    display: flex;
-    float: right;
-    justify-content: flex-end;
-    background-color: papayawhip;
-    margin: 5px;
-    font-size: 19px;
-  }
-  
-  header li a {
+
+  nav a {
+    display: inline-block;
+    padding: 10px;
     text-decoration: none;
-    color: darkslategray;
-    cursor: pointer;
-    text-align: right;
+    color: #000;
   }
-  
-  header li a:hover {
-      opacity: 0.8;
+
+  .nav a:hover {
+    opacity: 60%;
   }
-  
-  header li a:active {
-      color: rgb(25, 61, 107);
-  }
-  
-  
+
   /* PAGE HERO */
-  
-  h2 {
+
+  .quote {
+    text-align: center;
+    font-size: 2.5em;
     font-style: italic;
+    margin: 70px;
+  }
+  
+  h1, h2 {
+    font-style: italic;
+    text-align: center;
   }
   
   p {
-    background-color: lightblue;
     text-align: center;
   }
   
