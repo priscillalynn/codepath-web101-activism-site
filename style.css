@@ -24,7 +24,7 @@ html {
 
   /* NAVBAR */
 
-  .topnav {
+  .header-container {
     overflow: hidden;
     background-color: rgb(234, 242, 255);
     position: fixed;
