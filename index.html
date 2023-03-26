@@ -16,30 +16,32 @@
 
 <body>
  <!-- NAVBAR -->
-    <header>
-      <div class="header-container">
-        <h1 class="logo"><a href="#" class="logo-link">The Importance of Free Speech</a></h1>
-        <nav>
-          <ul class="nav">
-            <li><a href="#">about</a></li>
-            <li><a href="#">issues</a></li>
-            <li><a href="#">take action</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+ <nav>
+  <div class="logo">
+    <a href="#"><img src="assets/dove-solid.svg" height="15px" width="15px" alt="Your Logo"><a href="#" class="logo-link"> The Importance of Free Speech</a></a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#quote-author">about</a></li>
+    <li><a href="#browse">issues</a></li>
+    <li><a href="#">take action</a></li>
+    <li ><button id="theme-button">Toggle Dark Mode</button></li>
+  </ul>
+</nav>
     
     <div id="quote-section">
-        <h1 class="quote">“If freedom of speech is taken away, then dumb and silent we may be led, like sheep to the slaughter.”
+        <h1 class="quote">“Freedom of expression is the matrix, the indispensable condition, of nearly every other form of freedom.”
         </h1>
-        <p class="quote-author">- George Washington</p>
+        <p id="quote-author">—U.S. Supreme Court Justice Benjamin N. Cardozo in Palko v. Connecticut</p>
     </div>
 
-  <h2 class="section-header">What's at Stake?</h2>
+  <h2 class="section-header">What's at Stake</h2>
   <img src="https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Free-Speech.jpeg" alt="free speech">
   <img src="https://knightfoundation.org/wp-content/uploads/2019/06/freespeech1_2.jpg?w=926" alt="change" height="400", width="550">
-  <p class="info">
+  <p id="info">
     Protecting free speech means protecting a free press, the democratic process, diversity of thought, and so much more. There have been protestors, marches, and a plethora of organizations that have worked for decades to ensure that freedom of speech is protected for everyone.
+    <br>
+    Freedom of speech, the press, association, assembly, and petition: This set of guarantees, protected by the First Amendment, comprises what we refer to as freedom of expression. It is the foundation of a vibrant democracy, and without it, other fundamental rights, like the right to vote, would wither away.
+    <br>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate reiciendis quod eum illo rerum, dignissimos odit obcaecati voluptatem fugit esse velit voluptate aut accusamus harum voluptates! Minus tenetur hic officiis?  
   </p>
   
@@ -48,16 +50,18 @@
 
   <h2 class="section-header">Know Your Rights</h2>
   <h3 class="lead">How do you know when your rights have been violated?</h3>
-   <p>
+   <p id="browse">
     Browse by Issue
   </p>
   <ul>
-    <button>Stopped by Police</button>
-    <button>Religious Freedom</button>
-    <button>Students' Rights</button>
-    <button>LGBTQ Rights</button>
+    <button><a href="https://www.aclu.org/know-your-rights/stopped-by-police">Stopped by Police</a></button>
+    <button><a href="https://www.aclu.org/know-your-rights/religious-freedom">Religious Freedom</a></button>
+    <button><a href="https://www.aclu.org/know-your-rights/students-rights">Students' Rights</a></button>
+    <button><a href="https://www.aclu.org/know-your-rights/lgbtq-rights">LGBTQ Rights</a></button>
     <button>Voting Rights</button>
     <button>Protestors' Rights</button>
+  </ul>
+    <ul>
     <button>Sex Discrimination</button>
     <button>Prisoners' Rights</button>
     <button>Race, Ethnicity, or National Origin-Based Discrimination</li>
@@ -66,7 +70,20 @@
   </ul>
  
   
-  <script src="script.js"></script>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="social">
+        <h2 class="section-header">For More Information</h2>
+        <a href="https://www.hrw.org/topic/free-speech?gclid=Cj0KCQjwlPWgBhDHARIsAH2xdNd77pADMAcdsVlwD-HTQ2GGheNrIBikFcodrW3hSKGQGL5YrG3kx-4aAmGzEALw_wcB" class="footer-links">Human Rights</a>
+        <a href="https://www.hrw.org/publications" class="footer-links">Reports</a>
+        <a href="https://www.hrw.org/impact" class="footer-links">Impact</a>
+      </div>
+      </div>
+        <p>freespeech@mail.com</p>
+        <p>Created by Priscilla Colon</p>
+      </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>
