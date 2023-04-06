@@ -139,6 +139,39 @@ iframe {
   text-align: center;
 }
 
+ /* FORM */
+ .petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+  margin-left: 80px;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+#sign-petition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#sign-now-button {
+  display: inline-block;
+  justify-content: center;
+}
+
 /* FOOTER */
 footer {
   color: #333;
